@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#153b3d">
+  <meta name="description" content="Aprenda Lord of Mysteries × Fabula Ultima em um curso visual: oito módulos, 22 Caminhos, biblioteca completa e laboratórios interativos.">
+  <title>Academia dos Mistérios · Formação Beyonder</title>
+  <link rel="icon" type="image/svg+xml" href="assets/emblem.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+  <aside id="sidebar" class="sidebar" aria-label="Navegação principal"></aside>
+  <div id="mobileShade" class="mobile-shade" hidden></div>
+  <div class="page-shell">
+    <header id="topbar" class="topbar"></header>
+    <main id="main" tabindex="-1"></main>
+    <footer class="site-footer"><span>ACADEMIA DOS MISTÉRIOS</span><p>Uma adaptação de fã de Lord of Mysteries × Fabula Ultima. Edição 0.2 · Sem teste de mesa.</p><a href="#/ler/fontes-de-lord-of-mysteries">Fontes e limites ↗</a></footer>
+  </div>
+  <dialog id="searchDialog" class="search-dialog" aria-labelledby="searchTitle">
+    <div class="search-heading"><h2 id="searchTitle">O que você quer descobrir?</h2><button id="closeSearch" class="icon-button" aria-label="Fechar busca">✕</button></div>
+    <label class="search-field"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="Uma regra, um Caminho, um ritual…" autocomplete="off"></label>
+    <div id="searchResults" class="search-results"></div>
+    <div class="search-hint">565 notas de referência <span>Esc para fechar</span></div>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript>Este curso usa JavaScript para navegar pelas aulas. Ative-o para acessar a biblioteca interativa.</noscript>
+</body>
+</html>
